@@ -1,8 +1,8 @@
-## page 单页
+## 6城猎人
 
 src 开发环境
 
-dist 生产环境
+build 生产环境
 
 ## install
 
@@ -10,4 +10,4 @@ dist 生产环境
 
 ## Demo
 
-[demo](http://panli-com.github.io/page)
+[demo](http://panli-com.github.io/6city)
