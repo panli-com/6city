@@ -227,7 +227,7 @@ body {
     display: block;
     width: 0.5rem;
     height: 0.5rem;
-    border-radius: 2px;
+    border-radius: 50%;
     background-color: #aaa; }
   .logistics-locus-u li p, .logistics-locus-u li time {
     padding-left: 1rem; }
