@@ -1,0 +1,69 @@
+.goods,.manualitems {
+	min-width:320px;
+	max-width:750px;
+	margin:0 auto;
+}
+.goodslist,.goods_P,.goodsamount,.goodssize {
+	border-bottom:solid 0.06rem #CCCCCC;
+	width:100%;
+	display:table;
+	padding:0.5rem;
+}
+.goodslist .goodspic {
+	display:table-cell;
+	width:4rem;
+	height:4rem;
+	text-align:center;
+	border:solid 0.06rem #CCCCCC;
+	vertical-align:middle;
+}
+.goodspic img {
+	max-width:4rem;
+	max-height:4rem;
+}
+.goodslist .goodstext {
+	display:table-cell;
+	padding-left:0.5rem;
+	vertical-align:middle;
+}
+.goodstext .goodsname {
+	font-size:0.7rem;
+	color:#333333;
+	line-height:0.9rem;
+}
+.goodstext .merchant,.goodstext .shipmerment {
+	color:#666666;
+	line-height:0.9rem;
+	font-size:0.65rem;
+}
+.goodstext .merchant {
+	margin-top:0.3rem;
+}
+.goods_P .pricename,.goodsamount .amounts {
+	display:table-cell;
+	vertical-align:middle;
+	font-size:0.7rem;
+	color:#333;
+	line-height:0.75rem;
+}
+.goods_P .goodsprice,.goodsamount .modifyamount {
+	text-align:right;
+	display:table-cell;
+	vertical-align:middle;
+}
+.goodsprice .priceRMB {
+	font-size:0.75rem;
+	color:#333333;
+	line-height:0.9rem;
+}
+.goodsprice .pricedollar {
+	font-size:0.7rem;
+	color:#666666;
+	line-height:0.85rem;
+	margin-top:0.25rem;
+}
+.goodsamount .modifyamount {
+	overflow:hidden;
+	padding:0.25rem 0;
+	display:block;
+}

@@ -1,0 +1,109 @@
+.preferential-wrap{
+	border-top: solid .06rem #CCC;
+    width: 100%;
+    display: table;
+    padding: .5rem;
+	font-size: .7rem;
+}
+.preferential-t{
+	width: 100%;
+    display: table;
+    position: relative;
+    .name-lf{
+        display: table-cell;
+        vertical-align: middle;
+        font-size: .7rem;
+        color: #333;
+        line-height: .75rem;
+    }
+    .right-main{
+        text-align: right;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .preferential-code-lab{
+        position: absolute;
+        z-index: 2;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        color: #999;
+        text-indent: 0.5rem;
+    }
+    .preferential-code{
+        height: 1.75rem;
+        font-size: 0.7rem;
+        width: 6rem;
+        background: #EEE;
+        text-align: left;
+        width: 8.8rem;
+        font-weight: 700;
+        color: #fe4d6a;
+        text-indent: 0.5rem;
+        position: relative;
+        margin-bottom: 0.5rem;
+    }
+    .red{
+      
+    }
+    .preferential-lab-box{
+       
+        label{
+            position: relative;
+            margin-bottom: .5rem;
+            color: #333;
+            font-size: .7rem;
+            border: .06rem solid #999;
+            padding: .2rem 0;
+            width: 4rem;
+            text-align: center;
+            display: inline-block;
+            background: #FFF;
+            margin-left: .5rem;
+            &.on{
+                background-color: #444;
+                color: #FFF;
+                border-color: #444;
+            }
+            input{
+                opacity: 0;
+                position: absolute;
+                
+            }
+        }
+        
+    }
+   
+}
+
+ .order-claim{        
+        border-top:solid 0.06rem #CCCCCC;
+        width:100%;
+        padding:0.5rem;
+        .textinput {
+            background:#eee;
+            line-height:0.9rem;
+            font-size:0.8rem;
+            outline:none;
+            cursor:text;
+            padding:0.5rem;
+            width:100%;
+            min-height: 3rem;
+            word-break:break-word;
+            word-wrap:break-word;
+            overflow:hidden;
+            overflow-y:auto;
+            border-radius:0.125rem;
+        }
+         .c_tx2 {
+            color:#333;
+        }
+        .c_tx3 {
+            color:#999;
+        }
+        .domainame {
+            color:#333333;
+            line-height:0.9rem;
+            font-size:0.75rem;
+            padding:0.25rem 0.125rem;
+        }
+    }

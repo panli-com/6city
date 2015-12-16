@@ -1,0 +1,177 @@
+
+#main {
+	z-index:1;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	bottom:2.5rem;
+	overflow:hidden;
+}
+
+.overlay {
+	z-index:3;
+	background:rgba(0,0,0,0.5);
+	display:none;
+}
+
+.btnadd,.btnminus {
+	display:block;
+	float:right;
+	height:1.45rem;
+	width:2.35rem;
+	line-height:1.45rem;
+	border:0.06rem solid #007aff;
+	color:#007aff;
+	text-align:center;
+	background:url(../images/icon_add.png) no-repeat center;
+	background-size:0.8rem 0.8rem;
+}
+.btnminus {
+	border-radius:0.2rem 0 0 0.2rem;
+	background-image:url(../images/icon_minus.png);
+}
+.btnadd {
+	border-left:0;
+	border-radius:0 0.2rem 0.2rem 0;
+}
+.btnaddisable {
+	background-image:url(../images/icon_add_disable.png);
+}
+.btnminusdisable {
+	background-image:url(../images/icon_minus_disable.png);
+}
+.goodssize {
+	padding-left:0;
+}
+.goodssize:last-child {
+	border-bottom:none;
+}
+.goodssize .sizetit {
+	font-size:0.7rem;
+	color:#333333;
+	line-height:0.85rem;
+	font-weight:bold;
+	padding-left:0.5rem;
+}
+.goodssize .sizetit .sizedetail {
+	margin-left:0.5rem;
+	color:#555;
+	font-weight:normal;
+}
+.goodssize ul {
+	padding-top:0.625rem;
+	margin-bottom:-0.25rem;
+	overflow:hidden;
+}
+.goodssize ul li {
+	float:left;
+	margin-bottom:0.5rem;
+	color:#333333;
+	font-size:0.75rem;
+	border:solid 0.06rem #999;
+	padding:0.425rem 0.7rem;
+	background:#FFFFFF;
+	margin-left:0.5rem;
+}
+.goodssize ul li.itemselected {
+	background:#444;
+	border-color:#222;
+	color:#FFFFFF;
+}
+.goodssize ul li.itemnone {
+	background:#FFFFFF;
+	border-color:#CCCCCC;
+	color:#bbb;
+}
+.productname {
+	border-bottom:solid 0.06rem #CCCCCC;
+	width:100%;
+	padding:0.5rem;
+}
+.productname .textinput {
+	background:#eee;
+	line-height:0.9rem;
+	font-size:0.8rem;
+	outline:none;
+	cursor:text;
+	padding:0.5rem;
+	width:100%;
+	word-break:break-word;
+	word-wrap:break-word;
+	overflow:hidden;
+	overflow-y:auto;
+	border-radius:0.125rem;
+}
+.productname .c_tx2 {
+	color:#333;
+}
+.productname .c_tx3 {
+	color:#999;
+}
+.productname .domainame {
+	color:#333333;
+	line-height:0.9rem;
+	font-size:0.75rem;
+	padding:0.25rem 0.125rem;
+}
+.product_p {
+	padding:0.375rem 0.5rem;
+}
+.goodsprice .moneytxt {
+	float:right;
+	height:1.75rem;
+	line-height:1.75rem;
+	width:5.5rem;
+	background:#EEEEEE;
+	font-family:HelveticaNeue,"Microsoft YaHei";
+	border-radius:0.125rem;
+	text-align:right;
+	padding:0 0.5rem;
+	font-weight:bold;
+	font-size:0.75rem;
+	color:#333;
+}
+input::-webkit-input-placeholder {
+	color:#999999;
+	font-weight:normal;
+}
+.goodsprice .moneyunit {
+	margin-right:0.25rem;
+	background:#666666;
+	height:1.75rem;
+	width:4rem;
+	line-height:1.75rem;
+	font-size:0.75rem;
+	padding-right:1.1rem;
+	padding-left:0.5rem;
+	float:right;
+	color:#FFFFFF;
+	text-align:left;
+	border-radius:0.125rem;
+	position:relative;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.goodsprice p:after {
+	content:'';
+	display:inline-block;
+	position:absolute;
+	right:0.5rem;
+	top:40%;
+	border-top:0.4rem solid #FFFFFF;
+	border-left:0.4rem solid transparent;
+	border-right:0.4rem solid transparent;
+}
+.productstandard {
+	border-bottom:none;
+}
+.productname .standard {
+	font-size:0.7rem;
+	color:#333333;
+	padding:0.25rem 0 0.5rem;
+}
+.productstandard .textinput {
+	font-size:0.75rem;
+}
