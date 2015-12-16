@@ -339,7 +339,7 @@ input::-webkit-input-placeholder {
     width: 6rem;
     background: #EEE;
     text-align: left;
-    width: 8.8rem;
+    width: 8.48rem;
     font-weight: 700;
     color: #fe4d6a;
     text-indent: 0.5rem;
@@ -351,12 +351,13 @@ input::-webkit-input-placeholder {
     color: #333;
     font-size: .7rem;
     border: .06rem solid #999;
-    padding: .2rem 0;
+    height: 1.5rem;
+    line-height: 1.5rem;
     width: 4rem;
     text-align: center;
     display: inline-block;
     background: #FFF;
-    margin-left: .5rem; }
+    margin-left: .36rem; }
     .preferential-t .preferential-lab-box label.on {
       background-color: #444;
       color: #FFF;
