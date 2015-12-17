@@ -319,9 +319,10 @@ input::-webkit-input-placeholder {
   .preferential-t .name-lf {
     display: table-cell;
     vertical-align: middle;
-    font-size: .7rem;
     color: #333;
     line-height: .75rem; }
+  .preferential-t .font-big {
+    font-size: .75rem; }
   .preferential-t .right-main {
     text-align: right;
     display: table-cell;

@@ -12,9 +12,12 @@
     .name-lf{
         display: table-cell;
         vertical-align: middle;
-        font-size: .7rem;
+        
         color: #333;
         line-height: .75rem;
+    }
+    .font-big{
+        font-size: .75rem;
     }
     .right-main{
         text-align: right;
